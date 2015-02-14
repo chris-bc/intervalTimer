@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.WatchViewStub
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watch_view_stub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:rectLayout="@layout/rect_activity_iteration"
+    app:roundLayout="@layout/round_activity_iteration"
+    tools:context=".IterationActivity"
+    tools:deviceIds="wear">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".IterationActivity"
+        tools:deviceIds="wear_square">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select an interval"
+        />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        /></LinearLayout>
+</android.support.wearable.view.WatchViewStub>
